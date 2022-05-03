@@ -20,6 +20,14 @@ int main()
     printf("please input a string \n");
     scanf("%s",s);
     printf("your input string= %s\n",s);
-
+    #endif
+    
+    printf("char display=%c\n",s);
+    printf("char display=%x\n",s);
+    
+    printf("your input integer=%d\n",i + 2);
+    printf("your input integer=%d\n",i - 2);
+    printf("your input integer=%d\n",i * 2);
+    printf("your input integer=%d\n",i / 2);
     return 0;
 }
